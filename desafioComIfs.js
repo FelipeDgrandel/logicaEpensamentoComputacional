@@ -2,10 +2,10 @@
 const valorSalario = parseFloat(gets());
 const valorBeneficios = parseFloat(gets());
 
-//Calcula imposto atraves da funcao " calcularImposto"
+//Calcula imposto atraves da funcao " calcularImposto".
 const valorImposto = calcularImposto(valorSalario);
 
-//calcula e imprime a saida ( com duas casa decimais)
+//calcula e imprime a saida ( com duas casa decimais).
 const saida = valorSalario - valorImposto + valorBeneficios;
 print(saida.toFixed(2));
 
